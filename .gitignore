@@ -1,0 +1,6 @@
+env
+__pycache__
+venv
+application.py
+config.py
+.idea
