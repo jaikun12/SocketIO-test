@@ -5,8 +5,6 @@ from flask import Flask, request
 from flask_socketio import SocketIO, emit
 from mod_notifications.namespaces import NotificationNameSpace
 
-
-
 app = Flask(__name__)
 app.config["SECRET_KEY"] = "mysecret"
 
